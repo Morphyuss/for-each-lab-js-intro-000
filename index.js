@@ -10,7 +10,7 @@ iterativeLog([1,2,3,4,5]);
 
 
 function iterate(callback, array) {
-  array.forEach((callback));
+  array.forEach(array(callback));
 
 return array; 
 }
