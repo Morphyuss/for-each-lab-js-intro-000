@@ -25,7 +25,9 @@ function iterate(callback) {
 
 function doToArray(array, callback) {
   array = [1,2,3];
-  array.forEach(array, callback)}
+  array.forEach(array, (callback))
+  
+}
 
 
 
