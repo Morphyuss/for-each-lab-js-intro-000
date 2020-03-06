@@ -1,5 +1,23 @@
-function iterativeLog(array) {
+/*function iterativeLog(array) {
  array.forEach(`${index}: ${element}`);
 }
-return array;
+return iterativeLog();
+*/
+function iterativeLog(array) {
+ array.forEach((element,index)=> console.log(`${index}: ${element}`));
+}
+iterativeLog([1,2,3,4,5]);
 
+
+function iterate(callback, array) {
+  array.forEach(element, index);
+}
+return array(callback);
+
+
+/*
+function iterate(callback, [array]) {
+  array.forEach((callback) => [array]);
+return array(callback);
+}
+*/
