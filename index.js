@@ -8,12 +8,18 @@ function iterativeLog(array) {
 }
 iterativeLog([1,2,3,4,5]);
 
-
+/*
 function iterate(callback, array= [1,2,3,4,5]) {
   array.forEach(callback);
 
-return array;
+return array; 
+} */
+
+function iterate(callback) {
+  array = [1,2,3];
+  array.forEach(callback);
 }
+
 
 /*
 function doToArray(array, callback) {
