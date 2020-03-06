@@ -9,10 +9,10 @@ function iterativeLog(array) {
 iterativeLog([1,2,3,4,5]);
 
 
-function iterate(callback, array) {
+/*function iterate(callback, array) {
   array.forEach(element, index);
 }
-return array(callback);
+return array(callback); */
 
 
 /*
