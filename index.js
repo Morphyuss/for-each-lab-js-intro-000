@@ -3,10 +3,10 @@
 }
 return iterativeLog();
 */
-/*function iterativeLog(array) {
+function iterativeLog(array) {
  array.forEach((element,index)=> console.log(`${index}: ${element}`));
 }
-iterativeLog([1,2,3,4,5]);*/
+iterativeLog([1,2,3,4,5]);
 
 
 function iterate(callback, [array]) {
