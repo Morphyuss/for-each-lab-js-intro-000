@@ -15,10 +15,10 @@ function iterate(callback, array= [1,2,3,4,5]) {
 return array;
 }
 
-
+/*
 function doToArray(array, callback) {
   array.forEach(array)
-}
+} */
 
 
 
