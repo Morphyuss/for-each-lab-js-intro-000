@@ -13,7 +13,7 @@ function iterate(callback, array) {
   array.forEach(callback);
 }
 
-return iterate;
+return array.forEach;
 
 /*
 function iterate(callback, [array]) {
